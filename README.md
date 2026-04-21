@@ -284,8 +284,8 @@ MalwareMap is for **authorized security use only**. The author is not responsibl
 ## Links
 
 - [Streamlit Docs](https://docs.streamlit.io/)
-- 🛡️ [Threat Intelligence Best Practices](https://attack.mitre.org/)
-- 📊 [CVSS Scoring](https://www.first.org/cvss/)
+- [Threat Intelligence Best Practices](https://attack.mitre.org/)
+- [CVSS Scoring](https://www.first.org/cvss/)
 
 ---
 
