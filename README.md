@@ -9,33 +9,33 @@
 
 ---
 
-## 🎯 Features
+## Features
 
-✨ **Multi-Source Threat Intelligence**
-- 🔍 [MalwareBazaar](https://bazaar.abuse.ch/) - Latest malware hashes
-- 🛡️ [AbuseIPDB](https://www.abuseipdb.com/) - Malicious IP addresses
-- 🔗 [AlienVault OTX](https://otx.alienvault.com/) - Open Threat Exchange indicators
+**Multi-Source Threat Intelligence**
+- [MalwareBazaar](https://bazaar.abuse.ch/) - Latest malware hashes
+- [AbuseIPDB](https://www.abuseipdb.com/) - Malicious IP addresses
+- [AlienVault OTX](https://otx.alienvault.com/) - Open Threat Exchange indicators
 
-📊 **Advanced Analytics**
+**Advanced Analytics**
 - Global threat heatmap with geolocation visualization
 - Risk-based filtering (0-100 score)
 - IOC distribution charts (types, sources)
 - MITRE ATT&CK integration
 - First/Last seen timestamps
 
-🎨 **Modern UI/UX**
+**Modern UI/UX**
 - Dark-mode with animated Vanta.js background
 - Responsive design with compact buttons
 - Smooth gradients and hover effects
 - Real-time data synchronization
 
-🔗 **One-Click Analysis**
+**One-Click Analysis**
 - VirusTotal integration for hashes
 - AbuseIPDB lookup for IPs
 - URLhaus search for domains
 - Direct external threat platform links
 
-📋 **Data Management**
+**Data Management**
 - SQLite database with WAL mode for performance
 - CSV export functionality
 - Advanced search & filtering
@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -124,7 +124,7 @@ The app will open at `http://localhost:8501`
 
 ---
 
-## 🛠️ API Integration
+## API Integration
 
 ### MalwareBazaar
 ```python
@@ -148,7 +148,7 @@ refresh_from_alienvault(limit=50)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 malmap/
@@ -177,7 +177,7 @@ malmap/
 
 ---
 
-## 📊 Database Schema
+## Database Schema
 
 The SQLite database stores threat indicators:
 
@@ -198,7 +198,7 @@ CREATE TABLE iocs (
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Change Color Scheme
 Edit the CSS variables in `dashboard.py`:
@@ -218,7 +218,7 @@ Modify risk score calculations in the source integration functions.
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### **API Rate Limiting (429 Error)**
 - Good news: Built-in rate limit handling!
@@ -243,7 +243,7 @@ rm iocs.db-wal iocs.db-shm
 
 ---
 
-## 📈 Performance Tips
+## Performance Tips
 
 1. **Filter by Risk Score** - Focus on dangerous threats first
 2. **Use Source Filters** - Narrow to your trusted sources
@@ -263,27 +263,27 @@ Contributions welcome! Please:
 
 ---
 
-## 📝 License
+## License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 👤 Author
+## Author
 
 **n4cr0t1c** - [GitHub](https://github.com/n4cr0t1c)
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 MalwareMap is for **authorized security use only**. The author is not responsible for misuse. Always respect terms of service for third-party APIs and data sources.
 
 ---
 
-## 🔗 Links
+## Links
 
-- 📚 [Streamlit Docs](https://docs.streamlit.io/)
+- [Streamlit Docs](https://docs.streamlit.io/)
 - 🛡️ [Threat Intelligence Best Practices](https://attack.mitre.org/)
 - 📊 [CVSS Scoring](https://www.first.org/cvss/)
 
