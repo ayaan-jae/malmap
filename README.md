@@ -53,7 +53,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/n4cr0t1c/malmap.git
+git clone https://github.com/ayaan-jae/malmap.git
 cd malmap
 
 # Create virtual environment
