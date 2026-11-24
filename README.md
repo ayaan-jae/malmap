@@ -271,7 +271,7 @@ MIT License - See LICENSE file for details
 
 ## Author
 
-**n4cr0t1c** - [GitHub](https://github.com/n4cr0t1c)
+**ayaan-jae** - [GitHub](https://github.com/ayaan-jae)
 
 ---
 
